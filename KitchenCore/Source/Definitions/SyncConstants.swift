@@ -13,7 +13,7 @@ public struct SyncConstants {
 
     public static let containerIdentifier = "iCloud.com.LuoWei.CloudKitDemo"
 
-    public static let appGroup = "8C7439RJLG.group.codes.rambo.CloudKitchenSink20"
+    public static let appGroup = "group.codes.rambo.CloudKitchenSink20"
 
     public static let subsystemName = "codes.rambo.KitchenCore"
 
