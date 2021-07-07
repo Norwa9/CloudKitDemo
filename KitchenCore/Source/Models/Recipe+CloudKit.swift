@@ -97,7 +97,7 @@ extension CKRecord {
 
     var encodedSystemFields: Data {
         let coder = NSKeyedArchiver(requiringSecureCoding: true)
-        encodeSystemFields(with: coder)
+        encodeSystemFields(with: coder)//给record的元数据编码
         coder.finishEncoding()
 
         return coder.encodedData
